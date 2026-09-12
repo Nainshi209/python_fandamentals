@@ -225,10 +225,7 @@
 #         if is_prime(num):
 #             print(num)
 
-
-
 for i in range(1,6):
-    if i<5:
-      print("*",end = " ")
-    else:
-       print("****")
+    for j in range(i,i+1):
+        print("*", end= " ")
+    print()

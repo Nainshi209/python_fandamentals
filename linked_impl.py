@@ -133,6 +133,12 @@ node3.prev.next = node3.next
 #again 3o back to connect
 node3.next.prev = node3.prev
 
+
+
+
+
+
+
 #forword traversal
 current = node1
 while current is not None:
